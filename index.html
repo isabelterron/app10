@@ -1,0 +1,504 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Desima aplicacion movil</title>
+<!-- Start WOWSlider.com HEAD section -->
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temeapp10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<body onLoad="MM_preloadImages('imagenes/derechoP2.jpg','imagenes/derecho2.jpg','imagenes/criminalistica2.jpg','imagenes/criminalistica4.jpg','imagenes/psiqui2.jpg','imagenes/psiqui4.jpg','imagenes/criminalistica6.jpg','imagenes/derecho4.jpg','imagenes/universidad3.jpg','imagenes/universidad2.jpg','imagenes/cbtis2.jpg')"><div data-role="page" id="Principal" data-theme="b">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+ <h1>CARRERAS UNIVERSITARIAS</h1>
+ </div>
+ <div data-role="main" class="ui-content">
+ <div><center>
+ <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+  <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Derecho</h2>
+    <p>Abogacía</p>
+    </a>
+    </li>
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Ciencias Criminalisticas </h2>
+    <p>Licenciatura en Criminología</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+     <h2>Psiquiatría</h2>
+    <p>Especialidad de Medicina</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Universidades</h2>
+    <p>Informacion</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Datos Del Desarrollador</h2>
+    <p>Informacion</p>
+    </a>
+    </li>
+    </ul>
+   
+   </div>
+  </div>
+    <div data-role="footer" align="center" data-theme="b" data-position="fixed">
+    <div>
+    <img src="res/android/mdpi.png" width="46" height="46">
+    </div>
+    <h4>Aplicación Diez</h4>
+    <h4>Guadalupe Isabel Terron De Gante</h4>
+    </div>
+    </div>
+</div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>Derecho</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/derecho2.jpg',1)"><img src="imagenes/derecho1.jpg" width="550" height="413" id="Image6"></a> </div>
+     <div>
+     <br>
+<p>El <strong>derecho</strong> es un orden normativo e institucional de la conductahumana en sociedad inspirado en postulados de justicia y certeza jurídica. Su carácter y contenido está basado en las relaciones sociales en un determinado lugar y tiempo. El concepto del derecho es estudiado por la filosofía del derecho. A lo largo de la historia juristas, filósofos y teóricos del derecho han propuesto definiciones alternativas y distintas teorías jurídicas sin que exista consenso sobre su definición.</p>
+<p>La expresión «derecho» se utiliza indistintamente para nombrar a la disciplina y su objeto de estudio. Así, «derecho» dice relación con la ciencia del derecho o un determinado cuerpo de normas (por ejemplo, derecho civil, derecho penal, derecho procesal, derecho internacional, etc.). De acuerdo con la Real Academia de la Lengua Española y la Fundación del Español Urgente, todas las acepciones de «derecho» se escriben con minúscula, a excepción de cuando hacen referencia a un departamento, facultad o asignatura.</p>
+</div>
+  </div>
+    
+     
+<div data-role="collapsible" data-content-theme="false">
+  <h1>¿Que tipos de derecho existen?</h1>
+  <p><strong>Derecho Estudiantil</strong><br>
+    <br>
+    En la educación se transmiten y ejercitan los valores que hacen posible la vida en sociedad y se adquieren los hábitos de convivencia y de respeto mutuo. Por ello, la formación en el respeto de los derechos y libertades fundamentales y en el ejercicio de la tolerancia y de la libertad dentro de los principios democráticos de convivencia es, de acuerdo con el artículo 1 de la Ley Orgánica 1/1990, de 3 de octubre, de Ordenación General del Sistema Educativo, uno de los fines primordiales que debe perseguir el sistema educativo.<br>
+  </p>
+  <div><br>
+  </div>
+  <div><br>
+  </div>
+  <strong>Derecho mercantil</strong><br>
+  <br>
+  El Derecho mercantil o Derecho comercial es una rama del Derecho privado que regula el conjunto de normas relativas a los comerciantes en el ejercicio de su profesión, a los actos de comercio legalmente calificados como tales y a las relaciones jurídicas derivadas de la realización de estos. Esto es, en términos amplios, es la rama del Derecho que regula el ejercicio del comercio.<br>
+  <br>
+  <br>
+  <strong>Derecho penal</strong><br>
+  <br>
+  Derecho penal es el conjunto de normas jurídicas que regulan la potestad punitiva del Estado, asociando a hechos, estrictamente determinados por la ley, como presupuesto, una pena, medida de seguridad o corrección como consecuencia, con el objetivo de asegurar los valores elementales sobre los cuales descansa la convivencia humana pacífica.<br>
+  <br>
+  <div><strong>Derecho objetivo</strong></div>
+  <div>Es el conjunto de normas que componen al derecho</div>
+  <div><br>
+    <strong>Derecho subjetivo</strong></div>
+  <div>Es el hombre frente a la norma</div>
+  <div><br>
+    <strong>Derecho natural</strong></div>
+  <div>Emana de la naturaleza del hombre</div>
+  <div><br>
+  </div>
+  <div><strong>Derecho Vigente</strong></div>
+  <div>Es la que rige actualmente y este es positivo por que es parte de lahistoria del derecho.</div>
+  <div><br>
+    <strong>Derecho Positivo</strong></div>
+  <div>Es la historia de las leyes las que nos han regido y que ha sidoobligatorio, pero no nos rige actualmente (excepto las vigentes).</div>
+  <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/derecho4.jpg',1)"><img src="imagenes/derecho3.jpg" width="580" height="738" id="Image2"></a> 
+  <CENTER></CENTER>
+  </div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="http://www.mi-carrera.com/Derecho.html" data-role="button" >
+<h2>Pagina web</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<li class="ui-first-child ui-last-child">
+  <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+  
+   <h2>Derecho</h2>
+   
+  </a>
+</li>
+<div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>Aplicación Diez, TDG</h4>
+</div>
+</div>
+</div>
+<div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="b">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    
+    <h1>	CRIMINOLOGIA</h1>
+    </div>
+    <div data-role="content" align="center">
+    <div>
+    <li class="ui-first-child ui-last-child">
+  <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>CRIMINOLOGIA</h2>
+   
+  </a>
+</li>
+
+       <p>La definición de Criminología  básicamente ronda en el aspecto de la investigación, ya que esta ciencia se  dedica puntualmente a la búsqueda de las causas que llevaron a que se produzca  un hecho criminal y sus consecuencias.<br>
+         La Criminología es una  carrera apasionante para todos aquellos que se interesen tanto por la&nbsp;medicina&nbsp;como por la&nbsp;psicología, por encontrar razones para que la mente actúe de una  determinada manera o de otra.</p>
+     </div>
+     </div>
+     <div><center>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/criminalistica4.jpg',1)"><img src="imagenes/criminalistica3.jpg" width="1000" height="400" id="Image8"></a> </div></center>
+    
+    <div data-role="collapsible" data-content-theme="false">
+  <h1>Mas imagenes</h1>
+  <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','imagenes/criminalistica6.jpg',1)"><img src="imagenes/criminalistica5.jpg" width="354" height="354" id="Image"></a> </div>
+     </div>
+        <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="https://es.wikipedia.org/wiki/Criminología" target="_self" id="beep" data-role="button">
+<h2>Informacion</h2>
+</a>
+</li>
+</ul>
+</div>
+    <div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>Aplicación Diez, TDGI</h4>
+    </div>
+    </div>
+    </div>
+    
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>PSIQUIATRIA</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+  <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/psiqui2.jpg',1)"><img src="imagenes/psiqui1.jpg" width="749" height="543" id="Image10"></a> </div>
+     <div>
+     <br>
+<p>La <strong>psiquiatría</strong> es la  especialidad que se dedica al análisis de los trastornos mentales. Esta  disciplina tiene como finalidad la prevención, la evaluación, el diagnóstico,  el tratamiento y la rehabilitación de las personas que padecen estos trastornos  mentales. La psiquiatría tiene diferentes subespecialidades: la psicopatología  (que trata del estudio de los procesos que pueden llevar a padecer algún  trastorno mental), la psicofarmacología (el análisis de los efectos de los  fármacos en los diferentes tratamientos de enfermedades mentales) y la  sexología (la investigación de la sexualidad humana)<br>
+  especialidad medica <br>
+  Como herramienta al  servicio del ser humano, la medicina se vale del conocimiento adquirido en su  ámbito científico aplicándolo al alivio del sufrimiento mental asociado con los  trastornos de la salud mental. La psiquiatría suele adoptar un&nbsp;modelo  médico&nbsp;para afrontar  los trastornos mentales, pero considera tanto los factores biológicos como  psicológicos, socio/culturales y antropológicos. Su objetivo es el estudio de  la enfermedad mental, los efectos bioquímicos y ambientales sobre la dinámica  del comportamiento y cómo interaccionan con el organismo para enfrentarse al  mundo. Según diferentes modelos, su acción puede desarrollarse en un hospital (psiquiatría  hospitalaria), en  consultas externas (psiquiatría ambulatoria) o en la comunidad (psiquiatría comunitaria)</p>
+</div>
+     </div>
+    
+     
+<div data-role="collapsible" data-content-theme="false">
+  <h1>¿Tipos de Psiquiatria?</h1>
+  <p><strong>Forense</strong><br>
+    Los psiquiatras forenses usualmente son retratados en las  películas y programas de televisión debido a su participación en el sistema  judicial. Los psiquiatras forenses estudian los sistemas legal y judicial,  además de todos los otros campos de la psiquiatría, para ayudar a resolver  crímenes y testificar durante los juicios. Los psiquiatras forenses dan terapia  a los criminales y también actúan como testigos expertos en los juicios.  También hacen testificaciones sobre la salud mental de los criminales acusados  y evaluaciones psicológicas que pueden tener repercusiones en el juicio.<br>
+    <strong>Adolescente</strong> <br>
+    El campo de la psiquiatría adolescente es complejo y muy  especializado, enfocándose sólo en los comportamientos, personalidades y  problemas psicológicos de los niños y adultos jóvenes. Los psiquiatras de  adolescentes lidian con niños abusados, maltratados o problemáticos. Trabajar  con adolescentes es muy diferente a trabajar con adultos, ya que usualmente  tienen maneras de pensar diferentes y distorsionadas. Los psiquiatras de  adolescentes le dan terapia a los niños abusados y usualmente trabajan para el  gobierno, hospitales o clínicas privadas para jóvenes problemáticos.<br>
+    <strong>Adicciones</strong> <br>
+    Un relativamente nuevo campo de estudio, la psiquiatría de  las adicciones, se enfoca en todos los tipos de dependencias de sustancias y  comportamientos. Los psiquiatras de adicciones trabajan en centros de  rehabilitación de drogas, instituciones de salud mental y en el gobierno para  realizar estudios de adicciones y tratarlas. Los psiquiatras de adicciones  lidian con adicciones al sexo, apuestas, robo, mentiras y piromanía, además de  los problemas de abuso de sustancias. Los psiquiatras de adicciones trabajan de  manera cercana con los pacientes para identificar las causas de su adicción y  buscar soluciones para controlarlas o detenerlas.<br>
+    <strong>Académico</strong> <br>
+    Muchos psiquiatras no trabajan de cerca con pacientes  excepto en ensayos clínicos o experimentos. Los psiquiatras académicos hacen  investigación en varios campos y trabajan en desarrollar fármacos para  problemas psiquiátricos. Además de esto, los psiquiatras que trabajan en la  docencia enseñan psiquiatría en escuelas médicas o universidades para entrenar  a los futuros psiquiatras y médicos.<br>
+    <strong>Geriátrico</strong><br>
+  Como los psiquiatras de adolescentes, aquellos que estudian  psiquiatría geriátrica se enfocan en un grupo particular de edad: los ancianos.  Los psiquiatras geriátricos trabajan con ciudadanos mayores que presentan  problemas mentales y diversas enfermedades, especialmente Alzheimer y demencia.  Los psiquiatras geriátricos determinan si los ancianos pueden vivir sin  supervisación, en asilos o en centros de rehabilitación.  </p>
+  <div>
+  
+  <CENTER></CENTER>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="http://www.uag.mx/especialidad/psiquiatria/" data-role="button" >
+<h2>Pagina web</h2>
+</a>
+</li>
+</ul>
+</div>
+<li class="ui-first-child ui-last-child">
+  <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>PSIQUIATRIA</h2>
+   
+  </a>
+</li>
+<div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>Aplicación Diez, TDGI</h4>
+    </div>
+    </div>
+    </div>
+    
+   
+    
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>UNIVERSIDADES</h1>
+</div>
+<div data-role="content" align="center">
+     <div>
+     <br>
+<center><strong>OPCIONES DE UNIVERSIDADES</strong></center>
+</div>
+     </div>
+    
+     
+<div data-role="collapsible" data-content-theme="false">
+  <h1>Imagenes</h1>
+ <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/universidad3.jpg',1)"><img src="imagenes/universidad2.jpg" width="1280" height="720" id="Image3"></a>
+ </div>
+  <div>
+    
+    <CENTER></CENTER>
+</div>
+</div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1>Pagina web</h1>
+  <p><a href="https://www.google.com.mx/search?q=universidades+en+puebla&oq=universidades+en+p&aqs=chrome.0.0j69i57j0l3j69i60.6783j0j7&sourceid=chrome&ie=UTF-8" target="_self">Pagina</a></p>
+  <div>
+    
+    <CENTER></CENTER>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="http://www.universia.net.mx/l" data-role="button" >
+<h2>Pagina de universidades</h2>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+<ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina9" data-role="button" >
+<h2>Mas informacion de universidades</h2>
+</a>
+</li>
+</div>
+<div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>Aplicación Diez, TDGI</h4>
+    </div>
+    </div>
+    </div>
+    
+   
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Datos</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+     <h2></h2>
+     </div>
+    
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>DATOS DEL DESARROLLADOR</h1>
+  <div>
+    <p>&nbsp;</p>
+     <p>Terrón De Gante Guadalupe Isabel</p>
+     <p>4° "G"</p>
+     <p>4° Semestre</p>
+     <p>Submodulo: Diseña Aplicaciones Movies</p>
+     <p>DAM</p>
+     <p>Lic. Jose Antonio Gomez</p>
+   <div>
+     <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','imagenes/cbtis2.jpg',1)"><img src="imagenes/cbtis.jpg" width="320" height="240" id="Image12"></a> </div>
+    <CENTER></CENTER>
+     </div>
+     </div>
+     
+<div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>Aplicación Diez, TDGI</h4>
+    </div>
+    </div>
+</div>
+   
+   
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Derecho</h1>
+</div>
+    <div data-role="content" align="center">
+     <div>
+     <h2></h2>
+     </div>
+    
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>En lo que me quiero especializar</h1>
+       <h1>Derecho Penal</h1>
+       <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/derechoP2.jpg',1)"><img src="imagenes/derechoP.jpg" width="400" height="300" id="Image5"></a> </div>
+  <div>
+    <p>&nbsp;</p>
+     <p><strong>Derecho penal</strong>&nbsp;es la  rama del&nbsp;Derecho Público&nbsp;que  regula la&nbsp;potestad  punitiva&nbsp;del  Estado, asociando a hechos, estrictamente determinados por la ley, como  presupuesto, una&nbsp;pena,  medida de seguridad o corrección como consecuencia.<br>
+       Cuando se habla de derecho penal se utiliza el término con  diferentes significados, de acuerdo con lo que se desee hacer referencia; de  tal modo, puede hablarse manera preliminar de un&nbsp;<em>Derecho penal sustantivo</em>&nbsp;y, por otro lado, del&nbsp;<em>Derecho penal adjetivo</em>&nbsp;o&nbsp;<em>procesal penal</em>.<br>
+       El primero de ellos está constituido por lo que generalmente se  conoce como&nbsp;código  penal&nbsp;o&nbsp;leyes&nbsp;penales de fondo, que son las&nbsp;normas&nbsp;promulgadas por el Estado, que establecen  los&nbsp;delitos&nbsp;y las penas, mientras que el&nbsp;derecho procesal penal&nbsp;es el conjunto de&nbsp;normas&nbsp;destinadas  a establecer el modo de aplicación de las mismas.<br>
+       El Derecho penal es el saber jurídico  que establece los principios para la creación, interpretación y así ejecutar la  aplicación de las leyes penales (aún a los casos privados); propone a los  jueces un sistema orientador de sus decisiones, que contiene y reduce el poder  punitivo para impulsar el progreso del Estado constitucional de derecho.</p>
+       <div>
+       <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="http://que-carreraestudiar.blogspot.mx/2013/02/carrera-derecho.html" data-role="button">
+<h2>Mas Informacion</h2>
+</a>
+</li>
+</div>    
+</div>
+</div>
+    <div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>Aplicación Diez, TDGI</h4>
+</div>
+   </div>
+   </div>
+   
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>Criminologia</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+     <h2></h2>
+     </div>
+    
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Ciencias criminalisticas</h1>
+       <div>
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/criminalistica2.jpg',1)"><img src="imagenes/criminalistica.jpg" width="275" height="183" id="Image7"></a> </div>
+  <div>
+    <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="http://www.uanl.mx/sites/default/files/Licenciatura%20en%20Criminologia.pdf" data-role="button" >
+<h2>Mas Informacion</h2>
+</a>
+</li>
+</div>
+    <CENTER></CENTER>
+     </div>
+ </div>
+
+<div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>Aplicación Diez, TDGI</h4>
+    </div>
+   </div>
+   </div>
+   
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>CRIMINOLOGIA</h1>
+    </div>
+    <div data-role="content" align="center">
+     <div>
+     <h2></h2>
+     </div>
+     <div>
+       <p><strong>¿Cuánto dura la carrera de psiquiatría?</strong></p>
+       <p>
+         Para ser Psiquiatra antes debes realizar la carrera de Medicina. Posteriormente, te lleva de cuatro a seis años de residencia para Psiquiatría. Después de completar una residencia, los psiquiatras pueden optar por especializarse aún más. Algunas especialidades incluyen la neuropsiquiatría, la psiquiatría forense, la psiquiatría infantil y otras. En función de la especialidad elegida, pueden pasar de dos a cuatro años más estudiando una especialidad
+       </p>
+     </div>
+    
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Imagen de Psiquiatria</h1>
+  <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','imagenes/psiqui4.jpg',1)"><img src="imagenes/psiqui3.jpg" width="870" height="1243" id="Image9"></a>
+<CENTER></CENTER>
+     </div>
+ </div>
+ <div>
+ <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+<li class="ui-first-child ui-last-child">
+<a href="https://www.nosequeestudiar.net/por-que-estudiar-psiquiatria/" data-role="button" >
+<h2>Pagina web</h2>
+</a>
+</li>
+</ul>
+</div>
+ </div>
+ 
+
+    <div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>Aplicación Diez, TDGI</h4>
+    </div>
+   </div>
+   </div>
+<div data-role="page" id="Pagina9" data-add-back-btn="true" data-theme="b">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+    <h1>como elejir una universidad    </h1>
+</div>
+    <div>
+      <h2>Paso 1: Determinar qué carrera o carreras te gustaría estudiar</h2>
+      <p>Esto es una decisión tan personal como dónde estudiar. Algunos factores que debes tener en cuenta son tus intereses y aptitudes, tus ideas sobre el tipo de trabajo que te gustaría hacer después de los estudios, y las salidas laborales que pueden tener determinados estudios. Este último factor muchas veces no se valora suficientemente, pero no olvides que estás tomando una decisión con grandes implicaciones para tu futuro. No quiere decir que debas descartar una carrera que te encanta porque tiene una tasa elevada de desempleo, ni mucho menos. Por un lado, el mercado laboral puede cambiar mucho antes de que acabes la carrera. Por otro, ya hemos dicho que no vale guiarse por datos generales. Un 80% de desempleo quiere decir que hay un 20% que está trabajando. Es completamente posible que poseas cualidades que te ayudarán a estar en este 20%. Pero debes evaluar objetivamente esas posibilidades.</p>
+      <h2>Paso 2: Identificar los criterios que quieres usar para considerar las universidades</h2>
+      <p>Tienes que empezar a limitar el número de universidades que vas a estudiar de cerca, y para eso debes decidir cuáles van a ser tus criterios de selección. Estos van a ser diferentes para cada estudiante, pero hay tres que pueden ayudarte a hacer una primera criba.</p>
+      <ul>
+        <li><strong>La carrera o carreras que quieres estudiar:</strong> Las carreras que identificaste en el paso número uno representan el primer criterio importante, ya que querrás limitar tu búsqueda a universidades que impartan esas carreras y además tengan un buen programa académico.</li>
+        <li><strong>Dificultad de acceso:</strong> La facilidad de entrar en una determinada carrera varía de una universidad a otra. Tal vez quieres descartar universidades que no exigen un cierto nivel mínimo para entrar en la carrera elegida o, al contrario, ves que tus posibilidades de entrar en determinadas universidades está limitada por tus notas.</li>
+        <li><strong>Coste:</strong> Si deseas poner un límite al coste de tus estudios, posiblemente eliminarás algunas universidades de tu consideración. No olvides tener en cuenta los gastos de alojamiento, comida, ocio, etc. También puede influir la posibilidad de obtener becas, o tu disposición de compaginar trabajo y estudios.</li>
+      </ul>
+      <h2>Paso 3: Hacer una lista larga de universidades que te pueden interesar</h2>
+      <p>Una vez tengas alguna idea básica de los criterios que son importantes para ti, puedes empezar a preparar una lista preliminar de universidades que te pueden interesar. Posiblemente ya tienes sugerencias de tus amigos, de tu familia y quizás del orientador de tu instituto. </p>
+      <h2>Paso 4: Recoger información más detallada sobre cada universidad en tu lista</h2>
+      <p>Para recoger información adiconal puedes utilizar el buscador de universidades de yaq.es. Te permite comparar rápidamente algunas de las características más importantes de todas las universidades que hay en España y puedes pedir que te envien más información por correo electrónico.  Puedes visitar las páginas web y llamarles por teléfono para conseguir información más detallada sobre los criterios que has definido.Si tienes familiares o amigos que son alumnos o ex-alumnos de universidades en tu lista, son una fuente excelente de información. Otra opción muy buena para conseguir información de primera mano es asistir a una de las ferias educativas que se organizan en varios puntos de España. Te permiten hablar directamente con representantes de muchas universidades en un solo día. Si decides asistir a una de las ferias grandes, como AULA, es importante planificar tu visita para sacar el máximo provecho.</p>
+      <h2>Paso 5: Aplicar tus criterios del paso 2 para acortar tu lista de universidades</h2>
+      <p>Con la información que has recopilado en el paso 4, y los criterios que elegiste en el paso 2 puedes repasar tu lista de universidades y hacer una segunda criba. El objetivo es reducir la lista a un número razonable que puedes visitar en persona. ¿Cuántas son un número razonable? Eso depende de cada uno, pero en la mayoría de los casos 5 o menos es suficiente.    </p>
+    </div>
+  <div data-role="content" align="center">
+     <div>
+     <h2></h2>
+     </div>
+    
+     <div data-role="collapsible" data-content-theme="false">
+       <h1>Imagen</h1>
+  <div>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','imagenes/universidad2.jpg',1)"><img src="imagenes/psiqui5.jpg" width="200" height="200" id="Image11"></a>
+<CENTER></CENTER>
+     </div>
+     </div>
+     
+<div data-role="footer" data-theme="b" data-position="fixed">
+    <h4>Aplicación Diez, TDGI</h4>
+    </div>
+    </div>
+</div>
+   
+</body>
+</html>
